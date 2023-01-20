@@ -14,6 +14,9 @@ import LogoSVG from "./assets/logo.svg?component";
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <div id="counter">
+          {{count}}
+        </div>
       </nav>
     </div>
   </header>
